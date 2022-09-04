@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+  
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.container{
+    background: rgb(61, 61, 61);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    
+}
+.guitar{
+    height: 5rem;
+    border-radius: 65px 0px;
+}
+.sound{
+    color: rgb(255, 255, 255);
+   padding-right: 10px;
+   margin-top: 20px;
+ 
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+   float: right;
+   margin-right: 30px;
+}
+nav ul li{
+    background: none;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    background: black;
+}
+nav ul li ul {
+    position: absolute;
+    display: none;
+    top: 50px;
+}
+
+nav ul li:hover > ul{
+    display: block;
+    background-color: rgb(255, 0, 0);
+    
+}
+nav ul li ul li{
+    width: 150px;
+    float: none;
+    position: relative;
+    display: list-item;
+}
+
+.flexend{
+justify-content: space-evenly;
+    display: -webkit-inline-box;
+    margin-left: 30rem;
+    margin-top: 1rem;
+}
+#btn{
+    margin-top: 1rem;
+    margin-right: 5px;
+    background: #42b7f0;
+    border-radius: 50px;
+}
+
+.templates{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+#yt{
+    margin: 1px;
+    height: 15px;
+    margin-top: 10px;
+}
+.yt{
+padding: 10px;
+}
+
+#fb{
+    margin: 1px;
+    height: 15px;
+    margin-top: 10px;
+}
+.fb{
+    padding: 10px;
+}
+#google{
+    margin: 1px;
+    height: 15px;  
+    margin-top: 10px;
+}
+.google{
+    padding: 10px;
+}
+#in{
+    margin: 1px;
+    height: 15px;
+    margin-top: 10px;
+}
+.in{
+    padding: 10px;
+}
+#pintrest{
+    margin: 1px;
+    height: 15px;
+    margin-top: 10px;
+}
+.pintrest{
+    padding: 10px;
+}
+#insta{
+    margin: 1px;
+    height: 15px;
+    margin-top: 10px;
+
+}
+.insta{
+    padding: 10px;
+}
+#twitter{
+    margin: 1px;
+    height: 15px;
+    margin-top: 10px;
+    border-radius: 20%;
+
+}
+.twitter{
+    padding: 10px;
+    
+}
+.image2{
+display: flex;
+justify-content: center;
+}
+.image22{
+    max-height: 10rem;
+    width: 60rem;
+    margin-top: 10px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.simage{
+    height: 160px;
+    width: 225px;
+    margin: 10px;
+}
+h4{
+    margin-left: 14px;
+    margin-top: -5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small;
+}
+.h11{
+position: absolute;
+color: white;
+font-size: 45px;
+padding-left: 43rem;
+margin-top: 4rem;
+font-family: 'Indie Flower', cursive;
+}
+.h22{
+    margin-left: 14px;
+    margin-top: 2px;
+    font-family: 'Indie Flower', cursive;
+}
+.pp{
+    margin-left: 14px;
+    margin-top: 7px;
+}
+.para{
+    margin-left: 14px;
+    margin-top: 10px;
+    max-width: 234px;
+    font-family: 'Raleway', sans-serif;
+}
+.section1{
+    background: white;
+   
+}
+#section-btn4{
+    margin-top: 1rem;
+    margin-right: 5px;
+    background: #42b7f0;
+    border-radius: 50px;
+}
